@@ -29,5 +29,5 @@
 ```
 127.0.0.1 whaleimagetranslate.localserver
 ```
-4. 터미널에서 열린 서버 포트 `xxxx` 확인
-5. 브라우저에서 `http://whaleimagetranslate.localserver:xxxx`로 접속
+4. 터미널에서 열린 서버 포트 `xxxx` 확인.
+5. 브라우저에서 `http://whaleimagetranslate.localserver:xxxx`로 접속.
