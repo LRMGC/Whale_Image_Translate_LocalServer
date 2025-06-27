@@ -47,7 +47,7 @@ def list_dirs():
             dirs.append({'name': name, 'path': path.replace("\\", "/")})
     return jsonify({'dirs': dirs})
 
-def find_free_port(start=5000, end=15000):
+def find_free_port(start=10000, end=30000):
     for port in range(start, end):
         with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
             try:
@@ -58,6 +58,6 @@ def find_free_port(start=5000, end=15000):
     raise RuntimeError("사용 가능한 포트가 없습니다.")
 
 if __name__ == "__main__":
-    port = find_free_port(6000, 10000)
+    port = find_free_port(10000, 20000)
     print(f"\n\n>>> 서버를 {port} 포트에 엽니다. 브라우저에서 http://localhost:{port} 접속하세요.\n")
     app.run(debug=True, port=port, host="0.0.0.0")
