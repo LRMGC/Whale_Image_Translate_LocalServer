@@ -1,6 +1,7 @@
 import os
 import socket
 from flask import Flask, render_template, request, jsonify, send_from_directory
+import sys
 
 app = Flask(__name__)
 BASE_DIR = os.path.abspath(".")
@@ -58,6 +59,5 @@ def find_free_port(start=5000, end=15000):
     raise RuntimeError("사용 가능한 포트가 없습니다.")
 
 if __name__ == "__main__":
-    port = find_free_port(6000, 10000)
-    print(f"\n\n>>> 서버를 {port} 포트에 엽니다. 브라우저에서 http://localhost:{port} 접속하세요.\n")
-    app.run(debug=True, port=port, host="0.0.0.0")
+    port = int(sys.argv[1]) if len(sys.argv) > 1 else 8000
+    app.run(host="0.0.0.0", port=port)
