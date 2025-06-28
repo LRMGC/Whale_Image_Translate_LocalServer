@@ -17,9 +17,9 @@
 
 3. `run_server.bat` 실행.
 
-4. 터미널에서 열린 서버 포트 `xxxx` 확인.
+4. 터미널에서 열린 서버 포트 `xxxxx` 확인.
 
-5. `http://localhost:xxxx` 또는 `http://127.0.0.1:xxxx` 로 접속.
+5. `http://localhost:xxxxx` 또는 `http://127.0.0.1:xxxxx` 로 접속.
 
 
 
@@ -49,5 +49,5 @@
     >
     >'문서' 폴더에 임시 저장 후, `c:\Windows\System32\drivers\etc\hosts` 에 관리자 권한으로 덮어쓰기.
 
-4. 터미널에서 열린 서버 포트 `xxxx` 확인.
-5. 브라우저에서 `http://whaleimagetranslate.localserver:xxxx`로 접속.
+4. 터미널에서 열린 서버 포트 `xxxxx` 확인.
+5. 브라우저에서 `http://whaleimagetranslate.localserver:xxxxx`로 접속.
