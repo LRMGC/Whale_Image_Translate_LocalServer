@@ -45,9 +45,9 @@
 
     >⚠️ 권한 오류 발생 시
     >
-    >"이 위치에 저장 할 권한이 없습니다. 권한을 얻으려면 관리자에게 문의하십시오" 라는 팝업이 뜰 경우:
+    >"이 위치에 저장 할 권한이 없습니다. 권한을 얻으려면 관리자에게 문의하십시오." 라는 팝업이 뜰 경우:
     >
-    >'문서' 폴더에 임시 저장 후, `c:\Windows\System32\drivers\etc\hosts` 에 관리자 권한으로 덮어쓰기.
+    >'문서' 폴더에 임시로 저장 후, `c:\Windows\System32\drivers\etc\hosts` 에 관리자 권한으로 덮어쓰기.
 
 4. 터미널에서 열린 서버 포트 `xxxxx` 확인.
 5. 브라우저에서 `http://whaleimagetranslate.localserver:xxxxx`로 접속.
