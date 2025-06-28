@@ -9,6 +9,8 @@
 
 ## 사용법
 
+0. 우측 상단의 '<> Code' → 'Download ZIP' 눌러 코드 파일 다운로드 후 적절한 위치에 압축 해제
+
 1. Python (https://www.python.org/downloads) 에서 Python 최신버전 설치.
 
 2. `install_requirements.bat` 실행. (Flask 설치)
