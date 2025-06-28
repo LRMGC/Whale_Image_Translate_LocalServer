@@ -38,7 +38,7 @@
 1. `c:\Windows\System32\drivers\etc\hosts` 파일을 메모장으로 열기.
 2. 맨 아래에 다음 줄 추가:
 ```
-#Whale_Image_Translate_Server
+#Whale_Image_Translate_LocalServer
 127.0.0.1 whaleimagetranslate.localserver
 ```
 3. 파일 형식은 모든 파일, 무 확장자 (.txt 없이) 로 저장
