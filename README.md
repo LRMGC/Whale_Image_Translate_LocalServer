@@ -1,6 +1,9 @@
 # Whale_Image_Translate_LocalServer
 웨일 브라우저 이미지 파일 번역용 로컬 서버
 
+![image](https://github.com/user-attachments/assets/55b2f2fa-8dde-48bb-aeca-cd0a10a50d74)
+
+
 ## 개요
 
 최근, 웨일 브라우저에서 Pixiv, Hitoxx, 로컬 저장소 (file:///~) 이미지 등의 이미지 번역을 차단함.
